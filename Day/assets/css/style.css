@@ -70,6 +70,14 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
+#preloader h4{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(1550%);
+  color: #ccc;
+}
+
 #preloader:before {
   content: "";
   position: absolute;

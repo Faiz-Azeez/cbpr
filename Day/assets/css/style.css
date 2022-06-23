@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   justify-content: center;
   align-items: center;
-  transform: translateY(1550%);
+  padding-top: 610px;
   color: #ccc;
 }
 
@@ -550,6 +550,29 @@ section {
  
 }
 
+.box{
+  height: 100%;
+}
+
+
+.size{
+  padding-top:50px ;
+  
+}
+
+.size1{
+  padding-top:70px ;
+  
+}
+
+.btn{
+  background-color:#d71a48;
+  color: white;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -587,6 +610,11 @@ section {
 }
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
   color: #fff;
+}
+
+.why-us .box:hover .btn{
+  background: white;
+  color: #d71a48;
 }
 
 /*--------------------------------------------------------------

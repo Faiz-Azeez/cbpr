@@ -94,6 +94,18 @@ h1, h2, h3, h4, h5, h6 {
   margin: -100px 0 0 -100px;
 }
 
+@media screen and (max-width: 768px) {
+  #preloader h4 {
+    font-size: 18px;
+    padding-top: 574px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+
+
 
 @-webkit-keyframes animate-preloader {
   0% {
@@ -556,15 +568,9 @@ section {
 
 
 .size{
-  padding-top:50px ;
+  padding-top:5px ;
   
 }
-
-.size1{
-  padding-top:70px ;
-  
-}
-
 .btn{
   background-color:#d71a48;
   color: white;
